@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AddPostActivity">
 
+    //Ini constraintlayout
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
@@ -13,7 +14,8 @@
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
+        
+        //Ini Imageview
         <ImageView
             android:id="@+id/cancel_ADDPOST"
             android:layout_width="40dp"
@@ -23,6 +25,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        //Ini Imageview
         <ImageView
             android:id="@+id/btn_save_ADDPOST"
             android:layout_width="40dp"
@@ -34,12 +37,14 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    //Ini linearLayout
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
 
+        //Ini Imageview
         <ImageView
             android:id="@+id/img_ADDPOST"
             android:layout_width="match_parent"
@@ -47,8 +52,10 @@
             android:src="@android:color/darker_gray" />
 
 
+        //ini LinearLayout
     </LinearLayout>
 
+    //Ini EditText
     <EditText
         android:id="@+id/description_ADDPOST"
         android:layout_width="317dp"
@@ -59,6 +66,7 @@
         app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintStart_toStartOf="parent" />
 
+    //Ini Buttton
     <Button
         android:id="@+id/addImage_ADDPOST"
         android:layout_width="92dp"
